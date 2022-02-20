@@ -41,6 +41,8 @@
                 <Calendar x:Name="MonthlyCalendar" HorizontalAlignment="Center" VerticalAlignment="Center" DisplayMode="Month" DisplayDateStart="1/1/22" DisplayDateEnd="12/31/22" SelectedDatesChanged="Calendar_SelectedDatesChanged"/>
             </Viewbox>
             <Button Content="Close" FontSize="20" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="30" Width="70" Margin="0,0,10,10" Click="closeButton_Click"/>
+            <RadioButton x:Name="Modified" Content="Modified" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="20,0,0,40" IsChecked="True"/>
+            <RadioButton x:Name="Original" Content="Original" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="20,0,0,20"/>
         </Grid>
     </Grid>
 </Window>

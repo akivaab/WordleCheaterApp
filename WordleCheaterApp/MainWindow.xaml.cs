@@ -46,7 +46,13 @@ namespace WordleCheaterApp
         {
             try
             {
-                string allWords = File.ReadAllText(@"wordle_list.txt");
+                string textFile = @"wordle_list.txt";
+                if ((bool)Original.IsChecked)
+                {
+                    textFile = @"wordle_list_original.txt";
+                }
+
+                string allWords = File.ReadAllText(textFile);
                 string[] words = allWords.Replace(@"""", "").Split(",");
                 return words[start + daysUntilMonth[month] + day];
             }
