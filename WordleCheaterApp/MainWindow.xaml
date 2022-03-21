@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WordleCheaterApp"
         mc:Ignorable="d"
-        Title="Wordle Cheater" Height="450" Width="800">
+        Title="Wordle Cheater" Height="450" Width="815">
     <Window.Resources>
         <Style x:Key="LetterStyle" TargetType="TextBlock">
             <Setter Property="HorizontalAlignment" Value="Center"/>
